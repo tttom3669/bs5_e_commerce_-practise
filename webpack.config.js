@@ -53,9 +53,9 @@ module.exports = {
     //     { from: "./static", to: "./static" },
     //   ],
     // }),
-    new webpack.DefinePlugin({
-      PRODUCTION: JSON.stringify(false),
-    }),
+    // new webpack.DefinePlugin({
+    //   PRODUCTION: JSON.stringify(false),
+    // }),
     new CompressionPlugin()
   ],
   devtool: 'source-map',
